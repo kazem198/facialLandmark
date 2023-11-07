@@ -16,7 +16,6 @@ for cl in myList:
 
 
 def findDes(images):
-
     deslist = []
     for img in images:
         kp1, des1 = orb.detectAndCompute(img, None)
